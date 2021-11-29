@@ -1,7 +1,6 @@
 import React from "react";
 import API from "../API";
 import "../App.css";
-import config from "../config/index.js";
 
 class CovidScreen extends React.Component {
 
@@ -106,7 +105,6 @@ class CovidScreen extends React.Component {
                     <li>Recovered: {cases.recovered}</li>
                     <li>Total: {cases.total}</li>
                 </ul>
-                <h3>{config.baseURL}</h3>
             </div>
         )
     }
